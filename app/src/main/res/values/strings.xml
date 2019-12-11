@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">إحميني</string>
+
+    <string name="country__prompt">Choose a country</string>
+
+    <string-array name="sexe__arrays">
+        <item>Homme</item>
+        <item>Femme</item>
+    </string-array>
+
+</resources>
+
