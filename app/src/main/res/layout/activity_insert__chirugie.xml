@@ -12,12 +12,29 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:theme="@style/ActionBar"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Ajouter chirurgie"
+                android:textSize="20sp"
+                android:textColor="@color/cardview_light_background" />
+        </android.support.v7.widget.Toolbar>
+
 
         <EditText
             android:id="@+id/Lib_chirugie"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
             android:ems="10"
             android:hint="Libelle"
             android:inputType="textPersonName"

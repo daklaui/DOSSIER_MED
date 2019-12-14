@@ -8,6 +8,7 @@
 
     tools:context=".Profile">
 
+
     <RelativeLayout
         android:id="@+id/rellay1"
         android:layout_width="match_parent"
@@ -122,7 +123,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Téléphone"
-                    android:textColor="@color/colorAccent"
+                    android:textColor="@color/Merchant_Marine_Blue"
                     android:textSize="13sp" />
 
                 <TextView
@@ -151,7 +152,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Date de naissence"
-                    android:textColor="@color/colorAccent"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="13sp" />
 
                 <TextView
@@ -180,7 +181,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Email"
-                    android:textColor="@color/colorAccent"
+                    android:textColor="@color/Merchant_Marine_Blue"
                     android:textSize="13sp" />
 
                 <TextView

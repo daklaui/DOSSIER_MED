@@ -6,99 +6,133 @@
     android:layout_height="match_parent"
     tools:context=".Dossier_Med">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/poids"
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp"
-            android:ems="10"
-            android:hint="Poids"
-            android:inputType="textPersonName|numberDecimal"
-            android:padding="10dp"
-            android:textColor="@android:color/black" />
+            android:layout_height="62dp"
+            android:theme="@style/ActionBar"
+            android:background="@color/colorPrimaryDark">
 
-        <EditText
-            android:id="@+id/hauteur"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp"
-            android:ems="10"
-            android:hint="Hauteur"
-            android:inputType="textPersonName|numberDecimal"
-            android:padding="10dp"
-            android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Ajout détails"
+                android:textSize="20sp"
+                android:textColor="@color/cardview_light_background" />
+        </android.support.v7.widget.Toolbar>
 
-        <EditText
-            android:id="@+id/type_sang"
+        <LinearLayout
+            android:id="@+id/lncontainer"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp"
-            android:ems="10"
-            android:hint="Type sanguin"
-            android:inputType="textPersonName"
-            android:padding="10dp"
-            android:textColor="@android:color/black" />
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/allergie"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp"
-            android:ems="10"
-            android:hint="Allergie"
-            android:inputType="textPersonName"
-            android:padding="10dp"
-            android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="Dossier Medical"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/maladie_chron"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp"
-            android:ems="10"
-            android:hint="Maladie chronique"
-            android:inputType="textPersonName"
-            android:padding="10dp"
-            android:textColor="@android:color/black" />
+            <EditText
+                android:id="@+id/poids"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:ems="10"
+                android:hint="Poids"
+                android:inputType="textPersonName|numberDecimal"
+                android:padding="10dp"
+                android:textColor="@android:color/black" />
 
-        <EditText
-            android:id="@+id/glyc"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp"
-            android:ems="10"
-            android:hint="Glycémie "
-            android:inputType="textPersonName|numberDecimal"
-            android:padding="10dp"
-            android:textColor="@android:color/black" />
+            <EditText
+                android:id="@+id/hauteur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:ems="10"
+                android:hint="Hauteur"
+                android:inputType="textPersonName|numberDecimal"
+                android:padding="10dp"
+                android:textColor="@android:color/black" />
 
-        <EditText
-            android:id="@+id/tension"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="7dp"
-            android:ems="10"
-            android:hint="Tension "
-            android:inputType="textPersonName|numberDecimal"
-            android:padding="10dp"
-            android:textColor="@android:color/black" />
+            <EditText
+                android:id="@+id/type_sang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:ems="10"
+                android:hint="Type sanguin"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColor="@android:color/black" />
 
-        <Button
-            android:id="@+id/ajouter_dossiermed"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:background="@color/colorPrimary"
-            android:text="Enregistrer"
-            android:textColor="@android:color/white" />
+            <EditText
+                android:id="@+id/allergie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:ems="10"
+                android:hint="Allergie"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/maladie_chron"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:ems="10"
+                android:hint="Maladie chronique"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/glyc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:ems="10"
+                android:hint="Glycémie "
+                android:inputType="textPersonName|numberDecimal"
+                android:padding="10dp"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/tension"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:ems="10"
+                android:hint="Tension "
+                android:inputType="textPersonName|numberDecimal"
+                android:padding="10dp"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/ajouter_dossiermed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/colorPrimary"
+                android:text="Enregistrer"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
     </LinearLayout>
+
 </RelativeLayout>

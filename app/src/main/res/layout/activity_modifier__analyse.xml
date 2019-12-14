@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Insert_Analyse">
+    tools:context=".Modifier_Analyse">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,26 +14,25 @@
         android:layout_alignParentTop="true"
         android:orientation="vertical">
 
-
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="62dp"
             android:theme="@style/ActionBar"
-            android:background="@color/colorPrimaryDark"
-            >
+            android:background="@color/colorPrimaryDark">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Ajouter analyse"
+                android:text="Modifier analyse"
                 android:textSize="20sp"
                 android:textColor="@color/cardview_light_background" />
         </android.support.v7.widget.Toolbar>
 
+
         <EditText
-            android:id="@+id/Lib"
+            android:id="@+id/Lib_Analyse_modifier"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -45,7 +45,7 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/Desc"
+            android:id="@+id/Desc_Analyse_modifier"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -58,7 +58,7 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/date"
+            android:id="@+id/date_Analyse_modifier"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -71,7 +71,7 @@
     </LinearLayout>
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/Ajouter_analyse"
+        android:id="@+id/Modifier_analyse"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -80,5 +80,6 @@
         android:layout_marginEnd="22dp"
         android:clickable="true"
         app:srcCompat="@android:drawable/ic_input_add" />
+
 
 </RelativeLayout>

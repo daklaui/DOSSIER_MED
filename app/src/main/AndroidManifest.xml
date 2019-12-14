@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -25,7 +25,8 @@
         <activity android:name=".Etat_Sante" />
         <activity android:name=".Liste_Des_Analyse" />
         <activity android:name=".Insert_Chirugie" />
-        <activity android:name=".ListeDesChirugies"></activity>
+        <activity android:name=".ListeDesChirugies" />
+        <activity android:name=".Modifier_Analyse"></activity>
     </application>
 
 </manifest>

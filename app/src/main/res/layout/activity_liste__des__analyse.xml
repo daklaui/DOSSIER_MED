@@ -6,13 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".Liste_Des_Analyse">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/listeDesAnalyse"
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="122dp" />
+        android:layout_height="62dp"
+        android:theme="@style/ActionBar"
+        android:background="@color/colorPrimaryDark"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Liste des analyes"
+            android:textSize="20sp"
+            android:textColor="@color/cardview_light_background" />
+    </android.support.v7.widget.Toolbar>
+
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/Ajouter_Analyse"
@@ -24,4 +35,12 @@
         android:layout_marginEnd="26dp"
         android:clickable="true"
         app:srcCompat="@android:drawable/ic_input_add" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listeDesAnalyse"
+        android:layout_width="match_parent"
+        android:layout_height="516dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="87dp" />
 </RelativeLayout>

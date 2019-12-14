@@ -7,12 +7,43 @@
     tools:context=".Detaille_Dossier_Med">
 
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:orientation="vertical">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:theme="@style/ActionBar"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Dossier Medicale"
+                android:textSize="20sp"
+                android:textColor="@color/cardview_light_background"
+                />
+        </android.support.v7.widget.Toolbar>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dossier Medical"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/poids_det"
@@ -103,7 +134,7 @@
 
         <Button
             android:layout_marginTop="10dp
-"
+"  android:visibility="invisible"
             android:id="@+id/ajouterdossiermed"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

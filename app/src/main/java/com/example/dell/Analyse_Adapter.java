@@ -40,6 +40,7 @@ public class Analyse_Adapter extends RecyclerView.Adapter<Analyse_Adapter.ViewHo
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                  Toast.makeText(context, "click student " + analyse.getId(), Toast.LENGTH_SHORT).show();
 
             }
