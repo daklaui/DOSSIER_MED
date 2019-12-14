@@ -77,19 +77,19 @@
             android:textColor="@android:color/background_light" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/Inscr"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:fontFamily="sans-serif"
+            android:padding="5dp"
             android:text="Inscription"
+            android:onClick="ActivityInscript"
             android:textAlignment="viewStart"
             android:textColor="@color/colorPrimary"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:typeface="normal"
-            android:layout_margin="5dp"
-            android:padding="5dp"
-            />
+            android:typeface="normal" />
 
     </LinearLayout>
 </RelativeLayout>

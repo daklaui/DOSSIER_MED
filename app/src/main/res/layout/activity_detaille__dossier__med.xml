@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detaille_Dossier_Med">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/poids_det"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:ems="10"
+            android:hint="Poids"
+            android:inputType="textPersonName|numberDecimal"
+            android:padding="10dp"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/hauteur_det"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:ems="10"
+            android:hint="Hauteur"
+            android:inputType="textPersonName|numberDecimal"
+            android:padding="10dp"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/type_sang_det"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:ems="10"
+            android:hint="Type sanguin"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/allergie_det"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:ems="10"
+            android:hint="Allergie"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/maladie_chron_det"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:ems="10"
+            android:hint="Maladie chronique"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/glyc_det"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:ems="10"
+            android:hint="Glycémie "
+            android:inputType="textPersonName|numberDecimal"
+            android:padding="10dp"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/tension_det"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:ems="10"
+            android:hint="Tension "
+            android:inputType="textPersonName|numberDecimal"
+            android:padding="10dp"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/ajouter_dossiermed_det"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimary"
+            android:text="modifier"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:layout_marginTop="10dp
+"
+            android:id="@+id/ajouterdossiermed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/holo_red_dark"
+            android:text="Ajouter un dossier medical"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</RelativeLayout>

@@ -84,4 +84,21 @@ public class Dossier_Medical {
         this.glycemie = glycemie;
         this.tensien = tensien;
     }
+
+    public Dossier_Medical(double poids, double hauteur, String type_sanguin, String allergie, String maladie_chronique, double glycemie, double tensien) {
+        this.poids = poids;
+        this.hauteur = hauteur;
+        this.type_sanguin = type_sanguin;
+        this.allergie = allergie;
+        this.maladie_chronique = maladie_chronique;
+        this.glycemie = glycemie;
+        this.tensien = tensien;
+    }
+
+    public Dossier_Medical(double poids, double hauteur,double glycemie, double tensien) {
+        this.poids = poids;
+        this.hauteur = hauteur;
+        this.glycemie = glycemie;
+        this.tensien = tensien;
+    }
 }

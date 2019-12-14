@@ -5,7 +5,7 @@ import java.util.Date;
 public class Chirugie {
     int id;
     String discriptionChirugie;
-    Date dateChirugie;
+    String dateChirugie;
 
     public int getId() {
         return id;
@@ -23,15 +23,15 @@ public class Chirugie {
         this.discriptionChirugie = discriptionChirugie;
     }
 
-    public Date getDateChirugie() {
+    public String getDateChirugie() {
         return dateChirugie;
     }
 
-    public void setDateChirugie(Date dateChirugie) {
+    public void setDateChirugie(String dateChirugie) {
         this.dateChirugie = dateChirugie;
     }
 
-    public Chirugie(int id, String discriptionChirugie, Date dateChirugie) {
+    public Chirugie(int id, String discriptionChirugie, String dateChirugie) {
         this.id = id;
         this.discriptionChirugie = discriptionChirugie;
         this.dateChirugie = dateChirugie;

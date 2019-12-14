@@ -11,13 +11,6 @@ public class Patient {
         this.id = id;
     }
 
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
 
     public int getNumero() {
         return numero;
@@ -27,13 +20,7 @@ public class Patient {
         this.numero = numero;
     }
 
-    public int getContact_urgence() {
-        return contact_urgence;
-    }
 
-    public void setContact_urgence(int contact_urgence) {
-        this.contact_urgence = contact_urgence;
-    }
 
     public String getNom() {
         return nom;
@@ -67,19 +54,57 @@ public class Patient {
         this.adresse = adresse;
     }
 
-    int age;
-    int numero;
-    int contact_urgence;
-    String nom,prenom,sexe,adresse;
 
-    public Patient(int id, int age, int numero, int contact_urgence, String nom, String prenom, String sexe, String adresse) {
-        this.id = id;
-        this.age = age;
-        this.numero = numero;
-        this.contact_urgence = contact_urgence;
+    int numero;
+
+    String nom;
+    String prenom;
+    String sexe;
+    String adresse;
+
+    public String getDate_naiss() {
+        return Date_naiss;
+    }
+
+    public void setDate_naiss(String date_naiss) {
+        Date_naiss = date_naiss;
+    }
+
+    String Date_naiss;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    String email,password;
+
+    public Patient( String nom, String prenom,String date_naiss,String email, String sexe, String adresse,int Numero) {
+        this.Date_naiss = date_naiss;
+        this.email = email;
+        this.numero = Numero;
         this.nom = nom;
         this.prenom = prenom;
         this.sexe = sexe;
         this.adresse = adresse;
+    }
+
+    public Patient(int id,String nom, String prenom,String email,String password) {
+this.id=id;
+        this.nom = nom;
+        this.prenom = prenom;
+        this.email = email;
+        this.password = password;
     }
 }

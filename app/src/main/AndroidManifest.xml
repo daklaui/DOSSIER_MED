@@ -9,15 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Inscription">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
-
+        <activity android:name=".Dossier_Med" />
+        <activity android:name=".Inscription" />
+        <activity android:name=".Insert_Analyse" />
+        <activity android:name=".Bienvenu" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Detaille_Dossier_Med" />
+        <activity android:name=".Etat_Sante" />
+        <activity android:name=".Liste_Des_Analyse" />
+        <activity android:name=".Insert_Chirugie" />
+        <activity android:name=".ListeDesChirugies"></activity>
     </application>
 
 </manifest>

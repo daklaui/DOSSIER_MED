@@ -90,7 +90,7 @@
             android:orientation="horizontal">
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/H"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -98,7 +98,7 @@
                 android:textStyle="bold" />
 
             <CheckBox
-                android:id="@+id/checkBox2"
+                android:id="@+id/F"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -249,7 +249,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/Save_Patient"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"

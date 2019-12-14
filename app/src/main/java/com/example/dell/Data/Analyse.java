@@ -5,7 +5,7 @@ import java.util.Date;
 public class Analyse {
     int id;
     String libelleAnalyse;
-    Date date_analyse;
+    String date_analyse;
     String résultatAnalyse;
 
     public int getId() {
@@ -24,11 +24,11 @@ public class Analyse {
         this.libelleAnalyse = libelleAnalyse;
     }
 
-    public Date getDate_analyse() {
+    public String getDate_analyse() {
         return date_analyse;
     }
 
-    public void setDate_analyse(Date date_analyse) {
+    public void setDate_analyse(String date_analyse) {
         this.date_analyse = date_analyse;
     }
 
@@ -40,7 +40,7 @@ public class Analyse {
         this.résultatAnalyse = résultatAnalyse;
     }
 
-    public Analyse(int id, String libelleAnalyse, Date date_analyse, String résultatAnalyse) {
+    public Analyse(int id, String libelleAnalyse, String date_analyse, String résultatAnalyse) {
         this.id = id;
         this.libelleAnalyse = libelleAnalyse;
         this.date_analyse = date_analyse;
